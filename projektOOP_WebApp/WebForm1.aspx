@@ -8,21 +8,26 @@
     <style>
         body{
             background-color: darkblue;
-            align-content: center;
-            text-align: center;
+            
         }
         .pickshows{
             align-content: center;
+            text-align: center;
             padding-bottom: 20px;
         }
         .buttons{
             margin-top: 20px;
+            align-content: center;
+            text-align: center;
         }
         h1{
             color: whitesmoke;
         }
         .header{
             
+        }
+        .links{
+            color: whitesmoke;
         }
 
     </style>
@@ -33,9 +38,19 @@
     </script>
 <body>
     <form id="form1" runat="server">
-        <div class="header">
-            <h1>Web App BPC-OOP Project</h1>
-        </div>
+        <header>
+            <div class="header">
+                <h1>Web App BPC-OOP Project</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="WebForm2.aspx" class="links">Reservations</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
         <div class="pickshows">
             <asp:DropDownList ID="DropDownList1" runat="server" DataTextField="Name" DataValueField="Name">
             </asp:DropDownList>
