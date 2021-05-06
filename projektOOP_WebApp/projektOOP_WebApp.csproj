@@ -81,13 +81,6 @@
     </None>
     <Content Include="WebForm1.aspx" />
     <Content Include="Web.config" />
-    <None Include="Connected Services\localhost\Service1.wsdl" />
-    <None Include="Connected Services\localhost\Service12.xsd">
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="Connected Services\localhost\Service13.xsd">
-      <SubType>Designer</SubType>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connected Services\localhost\Reference.cs">
@@ -105,10 +98,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Connected Services\localhost\Service1.wsdl" />
     <None Include="Connected Services\localhost\Service1.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\localhost\Service11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\localhost\Service12.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\localhost\Service13.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
