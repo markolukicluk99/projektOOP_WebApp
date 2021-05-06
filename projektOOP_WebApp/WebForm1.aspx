@@ -8,6 +8,8 @@
     <style>
         body{
             background-color: darkblue;
+            align-content: center;
+            text-align: center;
             
         }
         .pickshows{
@@ -20,7 +22,7 @@
             align-content: center;
             text-align: center;
         }
-        h1{
+        h1, h2{
             color: whitesmoke;
         }
         .header{
@@ -51,7 +53,9 @@
             </nav>
         </header>
         
+
         <div class="pickshows">
+            <h2>Available shows</h2>
             <asp:DropDownList ID="DropDownList1" runat="server" DataTextField="Name" DataValueField="Name">
             </asp:DropDownList>
         </div>
