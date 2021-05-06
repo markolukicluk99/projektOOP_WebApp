@@ -13,5 +13,10 @@ namespace projektOOP_WebApp
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm1.aspx");
+        }
     }
 }

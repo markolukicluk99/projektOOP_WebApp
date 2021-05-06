@@ -32,7 +32,7 @@
             <h1>Reservations
             </h1>
             <br />
-            <asp:Button ID="Button1" runat="server" Text="Homepage" />
+            <asp:Button ID="Button1" runat="server" Text="Homepage" OnClick="Button1_Click" />
             <div class="formitself">
                 <p>Choose a date</p>
                 <asp:Calendar ID="Calendar1" runat="server">
