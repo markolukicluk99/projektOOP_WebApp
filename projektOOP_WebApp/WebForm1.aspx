@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Homepage</title>
     <style>
         body{
             background-color: darkblue;
@@ -43,6 +43,7 @@
         <div class="buttons">
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" ForeColor="Red" />
         <asp:Button ID="Button2" runat="server" OnClick="Button1_Click" Text="Button" />
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Button" />
         </div>
     </form>
 </body>

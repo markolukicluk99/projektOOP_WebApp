@@ -31,5 +31,10 @@ namespace projektOOP_WebApp
             //PUT Show
             sluzba.AddShow(DateTime.Now, "NewShowBlah");
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("WebForm2.aspx");
+        }
     }
 }
